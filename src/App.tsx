@@ -1,7 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
-import "./App.css";
-import logo from "./logo.svg";
+import "./assets/App.css";
+import logo from "./assets/logo.svg";
 
 function App() {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { IntlProvider } from "react-intl";
 import App from "./App";
-import "./index.css";
+import "./assets/index.css";
 import { messages as allMessages } from "./messages";
 
 const currentLocale = "de-DE";
