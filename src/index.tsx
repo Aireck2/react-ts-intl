@@ -1,18 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { IntlProvider } from "react-intl";
-import App from "./App";
-import "./assets/index.css";
-import { messages as allMessages } from "./messages";
-
-const currentLocale = "de-DE";
-const messages = allMessages[currentLocale];
+import App from "./pages";
 
 ReactDOM.render(
-  <IntlProvider locale={currentLocale} messages={messages}>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </IntlProvider>,
+  // <IntlProvider locale={currentLocale} messages={messages}>
+  <App />,
+  // </IntlProvider>
   document.getElementById("root")
 );
