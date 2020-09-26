@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
+h1,
+h2,
+h3 {
+  margin: 0;
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.LogoHeader {
+  display: flex;
+  align-items: center;
+}
+
+.LogoHeader__container {
+  height: 50px;
+  width: 50px;
+  color: #61dafb;
+}
+.LogoHeader__title {
+  font-size: 24px;
+}
+.LogoHeader__img {
+  height: 50px;
+  width: 50px;
+}
+.Page {
+  background-color: #20232a;
+  height: calc(100vh - 60px);
+  padding: 60px 120px;
+  color: #61dafb;
+}
+
+.Page__title {
+  font-size: 48px;
+}
+
+.Page__subtitle {
+  font-size: 18px;
+}
+
+.Page__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-top: 50px;
+}
+.LanguageCard {
+  height: 150px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  color: #20232a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.LanguageCard__language {
+  background-color: #eafafe;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.LanguageCard__language:hover {
+  background-color: #bbeffd;
+  border-bottom-color: #1a1a1a;
+}
+.LanguageCard__img {
+  margin-top: 10px;
 }
