@@ -1,7 +1,8 @@
+import "@assets/App.css";
+import { LanguageCard } from "@components/Cards";
+import { LogoHeader } from "@components/Logo";
 import React from "react";
-import "../assets/App.css";
-import { LanguageCard } from "../components/Cards";
-import { LogoHeader } from "../components/Logo";
+
 const allLanguages = [
   {
     name: "English",
