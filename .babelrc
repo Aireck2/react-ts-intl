@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@*": ["./src/"],
+          "@i18n": ["./i18n/"],
+          "@assets": ["./src/assets/"],
+          "@components": ["./src/components/"],
+          "@pages": ["./src/pages/"],
+          "@tests": ["./tests/"]
+        },
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "@babel/plugin-proposal-class-properties"
+  ]
+}
