@@ -1,7 +1,7 @@
 import React from "react";
 
 interface IProps {
-  name: string;
+  name: JSX.Element;
   language: string;
 }
 
