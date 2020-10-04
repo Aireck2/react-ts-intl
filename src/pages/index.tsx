@@ -13,6 +13,14 @@ const allLanguages = [
     name: <FormattedMessage id="spanish" defaultMessage="Spanish" />,
     language: "Español",
   },
+  {
+    name: <FormattedMessage id="french" defaultMessage="French" />,
+    language: "Français",
+  },
+  {
+    name: <FormattedMessage id="german" defaultMessage="German" />,
+    language: "Deutsche",
+  },
 ];
 
 const App = () => {
@@ -32,10 +40,24 @@ const App = () => {
             :
           </p>
         </div>
-        <div className="Page__grid">
-          {allLanguages.map((lang, key) => (
-            <LanguageCard key={key} name={lang.name} language={lang.language} />
-          ))}
+        <div className="Page__container">
+          <div className="Page__grid">
+            {allLanguages.map((lang, key) => (
+              <LanguageCard
+                key={key}
+                name={lang.name}
+                language={lang.language}
+              />
+            ))}
+          </div>
+          <div className="Page__text">
+            <p>
+              <FormattedMessage
+                id="purpose.demo.description"
+                defaultMessage="The purpose of this demo is to give an example of an single page app with internationalization"
+              />
+            </p>
+          </div>
         </div>
       </div>
     </>
