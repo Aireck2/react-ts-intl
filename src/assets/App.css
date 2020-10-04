@@ -110,4 +110,18 @@ h3 {
   padding: 14px 30px;
   color: black;
 }
-
+@media screen {
+  @media (min-width: 500px) {
+    .Page {
+      padding: 30px 100px 0px;
+    }
+    .Page__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 849px) {
+    .Page__grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
