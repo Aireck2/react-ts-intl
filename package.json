@@ -6,8 +6,13 @@
     "clean": "rimraf -rf dist",
     "clean:build": "yarn clean dist out build",
     "start": "yarn clean && webpack-dev-server --config webpack.config.dev.js",
+    "prettier:fix:i18n": "prettier 'i18n/**.json' --write=true",
     "dev": "yarn start",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "webpack --config webpack.config.prod.js",
+    "intl:extract": "formatjs extract \"src/**/*.ts*\" --out-file i18n/messages.json --format scripts/react-intl-transformer.js && yarn prettier:fix:i18n",
+    "intl:json2pot": "rip json2pot 'i18n/messages.json' -o 'i18n/messages.pot'",
+    "intl:poedit": "yarn intl:extract && yarn intl:json2pot",
+    "intl:po-c": "rip po2json 'i18n/translations/*.po' -m 'i18n/messages.json' -o 'i18n/translation.json' && yarn prettier:fix:i18n"
   },
   "dependencies": {
     "@babel/cli": "^7.11.6",
