@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "@formatjs/cli": "^2.13.0",
+    "@svgr/webpack": "^5.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@types/cors": "^2.8.7",
     "@types/dotenv": "^8.2.0",
