@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2020-10-04T04:13:27.301Z\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 2.4.1\n"
+"Project-Id-Version: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+
+#. [english]
+#. defaultMessage is:
+#. English
+#: i18n/messages.json
+msgid "English"
+msgstr "Inglés"
+
+#. [languages]
+#. defaultMessage is:
+#. Languages
+#: i18n/messages.json
+msgid "Languages"
+msgstr "Idiomas"
+
+#. [spanish]
+#. defaultMessage is:
+#. Spanish
+#: i18n/messages.json
+msgid "Spanish"
+msgstr "Español"
+
+#. [language.demo.description]
+#. defaultMessage is:
+#. This repo has the following languages as demo
+#: i18n/messages.json
+msgid "This repo has the following languages as demo"
+msgstr "Este repositorio tiene los siguientes idiomas como demostración"
