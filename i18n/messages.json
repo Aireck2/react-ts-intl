@@ -1,0 +1,18 @@
+[
+  {
+    "defaultMessage": "English",
+    "id": "english"
+  },
+  {
+    "defaultMessage": "Spanish",
+    "id": "spanish"
+  },
+  {
+    "defaultMessage": "Languages",
+    "id": "languages"
+  },
+  {
+    "defaultMessage": "This repo has the following languages as demo",
+    "id": "language.demo.description"
+  }
+]
