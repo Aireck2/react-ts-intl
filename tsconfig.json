@@ -3,6 +3,14 @@
     "removeComments": true,
     "outDir": "./dist/",
     "baseUrl": ".",
+    "paths": {
+      "@*": ["./src/*"],
+      "@i18n/*": ["./i18n/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@tests/*": ["./tests/*"]
+    },
     "allowJs": true,
     "preserveConstEnums": true,
     "sourceMap": true,
@@ -11,30 +19,17 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "react",
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false,
-    "types": [
-      "jest"
-    ],
+    "types": ["jest"],
     "target": "esnext",
     "noImplicitAny": false,
     "noEmit": true
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "./src/**/*.ts",
-    "./src/**/*tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["**/*.ts", "**/*.tsx", "./src/**/*.ts", "./src/**/*tsx"],
+  "exclude": ["node_modules", "dist"]
 }
