@@ -8,11 +8,23 @@
     "id": "spanish"
   },
   {
+    "defaultMessage": "French",
+    "id": "french"
+  },
+  {
+    "defaultMessage": "German",
+    "id": "german"
+  },
+  {
     "defaultMessage": "Languages",
     "id": "languages"
   },
   {
     "defaultMessage": "This repo has the following languages as demo",
     "id": "language.demo.description"
+  },
+  {
+    "defaultMessage": "The purpose of this demo is to give an example of an single page app with internationalization",
+    "id": "purpose.demo.description"
   }
 ]
