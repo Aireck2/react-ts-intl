@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2020-10-04T04:13:27.301Z\n"
+"POT-Creation-Date: 2020-10-04T14:57:59.631Z\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,20 @@ msgid "English"
 msgstr ""
 
 #: i18n/messages.json
+#. [french]
+#. defaultMessage is:
+#. French
+msgid "French"
+msgstr ""
+
+#: i18n/messages.json
+#. [german]
+#. defaultMessage is:
+#. German
+msgid "German"
+msgstr ""
+
+#: i18n/messages.json
 #. [languages]
 #. defaultMessage is:
 #. Languages
@@ -26,6 +40,13 @@ msgstr ""
 #. defaultMessage is:
 #. Spanish
 msgid "Spanish"
+msgstr ""
+
+#: i18n/messages.json
+#. [purpose.demo.description]
+#. defaultMessage is:
+#. The purpose of this demo is to give an example of an single page app with internationalization
+msgid "The purpose of this demo is to give an example of an single page app with internationalization"
 msgstr ""
 
 #: i18n/messages.json
