@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2020-10-04T04:13:27.301Z\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"X-Generator: react-intl-po\n"
+
+
+#: i18n/messages.json
+#. [english]
+#. defaultMessage is:
+#. English
+msgid "English"
+msgstr ""
+
+#: i18n/messages.json
+#. [languages]
+#. defaultMessage is:
+#. Languages
+msgid "Languages"
+msgstr ""
+
+#: i18n/messages.json
+#. [spanish]
+#. defaultMessage is:
+#. Spanish
+msgid "Spanish"
+msgstr ""
+
+#: i18n/messages.json
+#. [language.demo.description]
+#. defaultMessage is:
+#. This repo has the following languages as demo
+msgid "This repo has the following languages as demo"
+msgstr ""
