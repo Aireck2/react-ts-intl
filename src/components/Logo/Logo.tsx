@@ -1,4 +1,4 @@
-import logo from "@assets/logo.svg";
+import ReactLogo from "@assets/logo.svg";
 import React from "react";
 
 export const LogoHeader: React.FC = () => {
@@ -6,7 +6,7 @@ export const LogoHeader: React.FC = () => {
     <header className="Header">
       <div className="LogoHeader">
         <div className="LogoHeader__container">
-          <img src={logo} className="LogoHeader__img" alt="logo" />
+          <ReactLogo />
         </div>
         <h1 className="LogoHeader__title">React</h1>
       </div>
