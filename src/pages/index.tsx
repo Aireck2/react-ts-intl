@@ -28,7 +28,11 @@ const App = () => {
         </div>
         <div className="Page__grid">
           {allLanguages.map((lang) => (
-            <LanguageCard name={lang.name} language={lang.language} />
+            <LanguageCard
+              key={lang.name}
+              name={lang.name}
+              language={lang.language}
+            />
           ))}
         </div>
       </div>
