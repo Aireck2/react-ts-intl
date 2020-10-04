@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,7 +13,7 @@ h1,
 h2,
 h3 {
   margin: 0;
-  color: #61dafb;
+  color: #0278ae;
 }
 
 .Header {
@@ -18,6 +21,7 @@ h3 {
   display: flex;
   align-items: center;
   padding: 0 60px;
+  background-color: #121212;
 }
 
 .LogoHeader {
@@ -26,9 +30,9 @@ h3 {
 }
 
 .LogoHeader__container {
-  height: 50px;
+  color: #0278ae;
+  height: 40px;
   width: 50px;
-  color: #61dafb;
 }
 .LogoHeader__title {
   font-size: 24px;
@@ -38,39 +42,55 @@ h3 {
   width: 50px;
 }
 .Page {
-  background-color: #20232a;
+  background-color: #292929;
   height: calc(100vh - 60px);
-  padding: 60px 120px;
-  color: #61dafb;
+  color: #0278ae;
+  padding: 30px 25px 0;
 }
 
 .Page__title {
   font-size: 48px;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .Page__subtitle {
   font-size: 18px;
+  color: rgba(255, 255, 255, 0.38);
 }
 
+.Page__container {
+  max-width: 744px;
+}
 .Page__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px;
-  margin-top: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+  margin-top: 30px;
 }
 .LanguageCard {
-  height: 150px;
-  padding: 30px;
-  background-color: white;
-  border-radius: 10px;
-  color: #20232a;
+  height: 100px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.87);
   border: none;
   outline: none;
   cursor: pointer;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16),
+      rgba(255, 255, 255, 0.16)
+    ),
+    #121212;
+  box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14),
+    0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.LanguageCard p {
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .LanguageCard__language {
-  background-color: #eafafe;
+  background-color: #4e89ae;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   font-size: 24px;
   font-weight: bold;
@@ -78,9 +98,16 @@ h3 {
   cursor: pointer;
 }
 .LanguageCard__language:hover {
-  background-color: #bbeffd;
+  background-color: #68a7ce;
   border-bottom-color: #1a1a1a;
+  box-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14),
+    0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
 }
-.LanguageCard__img {
-  margin-top: 10px;
+.Page__text {
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.87);
+  border-radius: 4px;
+  padding: 14px 30px;
+  color: black;
 }
+
