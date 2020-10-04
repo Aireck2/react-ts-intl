@@ -2,7 +2,10 @@
   "es_ES": {
     "english": "Inglés",
     "spanish": "Español",
+    "french": "Francés",
+    "german": "Alemán",
     "languages": "Idiomas",
-    "language.demo.description": "Este repositorio tiene los siguientes idiomas como demostración"
+    "language.demo.description": "Este repositorio tiene los siguientes idiomas como demostración",
+    "purpose.demo.description": "El propósito de esta demostración es dar un ejemplo de una aplicación de una sola página con internacionalización"
   }
 }
