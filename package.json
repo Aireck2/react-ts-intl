@@ -100,7 +100,7 @@
     "prettier": "^2.1.2",
     "react-intl-po": "^2.2.2",
     "resolve-ts-aliases": "^1.0.1",
-    "semantic-release": "^17.1.2",
+    "semantic-release": "^19.0.3",
     "source-map-loader": "^1.1.0",
     "ts-jest": "^26.4.1",
     "ts-loader": "^8.0.4",
